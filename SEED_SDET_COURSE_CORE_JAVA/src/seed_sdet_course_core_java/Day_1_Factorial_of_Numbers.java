@@ -14,7 +14,7 @@ public class Day_1_Factorial_of_Numbers {
 			fact=fact*count;
 		}
 		
-		System.out.println("The factorial for the number: "+num+" is "+fact);
+		System.out.println("The factorial is the number: "+num+" is "+fact);
 	}
 
 }
