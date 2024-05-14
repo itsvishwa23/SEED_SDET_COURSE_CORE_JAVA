@@ -15,7 +15,7 @@ public class Day_3_this_demo {
 	public void print() {
 
 		System.out.println(a);
-		System.out.println(b);
+		System.out.println(a);
 
 	}
 
