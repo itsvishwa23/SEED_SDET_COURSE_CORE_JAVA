@@ -9,7 +9,7 @@ public class Day_3_Account {
 	public void init() {
 		
 		accNO=2483;
-		ownerName= "Vishwanath Taware";
+		ownerName= "Vishwanath Sopan Taware";
 		Balance=505.5;
 		
 	}
