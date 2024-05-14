@@ -4,7 +4,8 @@ public class Day_3_Account_Main {
 
 	public static void main(String[] args) {
 		
-		Day_3_Account a1= new Day_3_Account();
+		Day_3_Account a1= new Day_3_Account(125,"Vishwa",10.4);
+		a1.print();
 		a1.init();
 		a1.print();
 		a1.getAccNO();

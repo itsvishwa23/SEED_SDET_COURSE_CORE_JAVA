@@ -1,10 +1,35 @@
 package seed_sdet_course_core_java;
 
+
+
 public class Day_3_Account {
 	
 	int accNO;
 	String ownerName;
 	double Balance;
+	
+	
+	public Day_3_Account(int x, String s, double b) {
+		
+		System.out.println(" Parametrized Constructor Implemented");
+		accNO=x;
+		ownerName=s;
+		Balance=b;
+		
+		
+	}
+	
+	public Day_3_Account() {
+		
+		System.out.println("Constructor Implemented");
+		accNO=000;
+		ownerName= "Demo";
+		Balance=000.0;
+		
+		
+	}
+	
+	
 	
 	public void init() {
 		
