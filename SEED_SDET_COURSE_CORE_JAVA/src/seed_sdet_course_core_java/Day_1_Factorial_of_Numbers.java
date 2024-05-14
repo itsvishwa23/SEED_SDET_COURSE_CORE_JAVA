@@ -5,16 +5,15 @@ public class Day_1_Factorial_of_Numbers {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int num=5;
+		int num = 5;
 		int count;
-		int fact=1;
-		
-		for(count=1;count<=num;count++)
-		{
-			fact=fact*count;
+		int fact = 1;
+
+		for (count = 1; count <= num; count++) {
+			fact = fact * count;
 		}
-		
-		System.out.println("The factorial is the number: "+num+" is "+fact);
+
+		System.out.println("The factorial is the number: " + num + " is " + fact);
 	}
 
 }
