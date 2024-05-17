@@ -11,10 +11,16 @@ public class Day_6_Saving_Account extends Day_6_Account {
 
 	}
 
-	@Override
-	public String toString() {
+//	@Override
+//	public String toString() {
+//
+//		return super.toString() + "The Balance is :" + balance;
+//	}
 
-		return super.toString() + "The Balance is :" + balance;
+	public void print() {
+		super.print();
+		System.out.println(balance);
+
 	}
 
 }

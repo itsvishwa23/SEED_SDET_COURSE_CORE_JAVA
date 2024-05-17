@@ -12,10 +12,17 @@ public class Day_6_Account {
 
 	}
 
-	@Override
-	public String toString() {
+//	@Override
+//	public String toString() {
+//
+//		return "The Account No is : " + acc_no + "The Name is: " + Name;
+//	}
 
-		return "The Account No is : " + acc_no + "The Name is: " + Name;
+	public void print() {
+
+		System.out.println(acc_no);
+		System.out.println(Name);
+
 	}
 
 }

@@ -10,10 +10,16 @@ public class Day_6_Fixed_Deposit_Account extends Day_6_Account {
 
 	}
 
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString() + "The fd amount is " + fd_amount;
+//	@Override
+//	public String toString() {
+//		// TODO Auto-generated method stub
+//		return super.toString() + "The fd amount is " + fd_amount;
+//	}
+
+	public void print() {
+		super.print();
+		System.out.println(fd_amount);
+
 	}
 
 }
