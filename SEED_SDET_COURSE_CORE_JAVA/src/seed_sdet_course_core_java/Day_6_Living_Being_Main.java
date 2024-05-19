@@ -5,10 +5,10 @@ public class Day_6_Living_Being_Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Day_6_Animal t = new Day_6_Tiger();
-		t.eat();
-		Day_6_Animal e = new Day_6_Elephant();
-		e.eat();
+		Day_6_Animal d1 = new Day_6_Tiger();
+
+		Day_6_Tiger d2 = (Day_6_Tiger) d1;
+		d2.eat();
 	}
 
 }
