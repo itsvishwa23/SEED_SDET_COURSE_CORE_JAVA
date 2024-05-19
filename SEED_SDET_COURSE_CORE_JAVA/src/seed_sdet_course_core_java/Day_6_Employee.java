@@ -8,35 +8,24 @@ public class Day_6_Employee {
 	int salary;
 
 	public Day_6_Employee() {
-
 		basic_Salary = 20000;
 		name = "Vishwanath";
 		id = 101;
 		da = 200;
-
 	}
 
-	Day_6_Employee(int basic_Salary, String name, int id)
-
-	{
+	public Day_6_Employee(int basic_Salary, String name, int id) {
 		this.da = 500;
 		this.basic_Salary = basic_Salary;
 		this.name = name;
 		this.id = id;
-
 	}
 
-	public int calculate() {
-
+	public void calculate() {
 		salary = basic_Salary + da;
-		return salary;
-
 	}
 
 	public void display() {
-
-		System.out.println("The Name of the employee is:" + name + "The Salary is:" + salary);
-
+		System.out.println("The Name of the employee is: " + name + ". The Salary is: " + salary);
 	}
-
 }
