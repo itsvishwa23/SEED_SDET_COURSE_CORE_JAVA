@@ -10,6 +10,7 @@ public class Day_7_Employee_Main {
 
 		Day_7_Marketing_Excutive d2 = new Day_7_Marketing_Excutive(102, "Ram", 30000, 20);
 		System.out.println(d2);
+
 	}
 
 }
