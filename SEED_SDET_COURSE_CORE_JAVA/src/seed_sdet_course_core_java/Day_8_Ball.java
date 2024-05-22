@@ -14,10 +14,10 @@ public class Day_8_Ball implements Day_8_Bouncebale, Day_8_Movebale {
 		System.out.println("This Method is from Bouncebale Interface");
 	}
 
-	public void test() {
-
-		Day_8_Bouncebale.super.print();
-
-	}
+//	public void test() {
+//
+//		Day_8_Bouncebale.super.print();
+//
+//	}
 
 }
