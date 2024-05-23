@@ -6,19 +6,9 @@ public class Day_10_Numerator_Denominator_Main {
 		// TODO Auto-generated method stub
 
 		Day_10_Numerator_Denominator d1 = new Day_10_Numerator_Denominator(10, 0);
-		try {
-			d1.divison();
-		} catch (ArithmeticException e) {
-			// TODO: handle exception
 
-			e.printStackTrace();
+		d1.divison();
 
-		} catch (NumberFormatException e) {
-			// TODO: handle exception
-
-			e.printStackTrace();
-
-		}
 	}
 
 }

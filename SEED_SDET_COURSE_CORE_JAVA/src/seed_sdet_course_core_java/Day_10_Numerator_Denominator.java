@@ -9,9 +9,18 @@ public class Day_10_Numerator_Denominator {
 		this.b = b;
 	}
 
-	public void divison() throws ArithmeticException, NumberFormatException {
+	public void divison() {
 
-		result = a / b;
+		try {
+
+			result = a / b;
+
+		} catch (ArithmeticException e) {
+			e.printStackTrace();
+
+		} catch (NumberFormatException e) {
+			e.printStackTrace();
+		}
 
 	}
 
