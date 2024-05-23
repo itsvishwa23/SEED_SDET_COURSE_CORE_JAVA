@@ -16,4 +16,5 @@ public class Day_5_Electronic_Device {
 		return "The brand is:\n" + Brand + "\nThe Price is:\n" + price;
 
 	}
+
 }

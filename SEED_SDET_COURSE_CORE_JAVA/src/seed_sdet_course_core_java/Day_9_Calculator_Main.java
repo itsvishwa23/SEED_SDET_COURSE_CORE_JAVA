@@ -33,6 +33,7 @@ public class Day_9_Calculator_Main {
 		switch (calc) {
 		case "Addition":
 			add(10, 20);
+			System.exit(0);
 			break;
 		case "Subtraction":
 			subtract(10, 20);
@@ -44,8 +45,8 @@ public class Day_9_Calculator_Main {
 			divide(10, 20);
 			break;
 		default:
-			System.out.println("Invalid Input.");
-			break;
+			System.err.println("Invalid Input.");
+
 		}
 
 	}
