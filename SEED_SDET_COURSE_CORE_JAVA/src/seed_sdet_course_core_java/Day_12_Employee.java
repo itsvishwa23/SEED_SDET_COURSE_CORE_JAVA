@@ -25,7 +25,7 @@ public class Day_12_Employee {
 			}
 		}
 		if (!found) {
-			System.out.println("Employee with ID = " + id + " not found.");
+			System.out.println("Employee with ID = " + id + " not .");
 		}
 	}
 }
