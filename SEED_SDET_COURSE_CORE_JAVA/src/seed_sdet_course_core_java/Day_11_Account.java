@@ -12,7 +12,7 @@ public class Day_11_Account {
 		this.balance = balance;
 	}
 
-	public void withdraw(int amt) {
+	public void withdraw(int amt) throws Day_11_Insufficent_Balance_Exception {
 
 		try {
 			if (balance - amt < 1000) {

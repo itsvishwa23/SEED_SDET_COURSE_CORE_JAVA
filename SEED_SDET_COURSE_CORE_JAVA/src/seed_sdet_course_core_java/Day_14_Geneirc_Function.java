@@ -8,6 +8,7 @@ public class Day_14_Geneirc_Function {
 	}
 
 	public static <T> void print(T arr[]) {
+
 		for (T j : arr) {
 			System.out.println(j);
 		}
